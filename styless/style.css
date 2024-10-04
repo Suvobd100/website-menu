@@ -6,11 +6,7 @@
 
 Body {
     /* margin-top: 50px; */
-<<<<<<< HEAD
-    background-image: url("/image/background-light-color-table-watch.jpg" );
-=======
     background-image: url("/image/back-image.jpg");
->>>>>>> 7333c76a1a922fb51c5ebcf8329460056988c4e0
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
