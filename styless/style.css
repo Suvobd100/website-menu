@@ -1,11 +1,35 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 Body{
-    background-image: url("/image/background-light-color-table-watch.jpg");
+    /* margin-top: 50px; */
+    background-image: url("/image/back-image.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeatgit;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.manu-bar
+{
+    background-color: cadetblue;
+    text-align: center;
+    
+}
+
+.manu-bar ul
+{
+display: inline-flex;
+color: white;
+list-style: none;
+}
+
+.manu-bar ul li
+{
+    width: 120px;  
+    margin: 15px;
+    padding: 15px 
 }
