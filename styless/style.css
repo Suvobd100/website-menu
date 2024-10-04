@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+Body{
+    background-image: url("/image/background-light-color-table-watch.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeatgit;
+}
