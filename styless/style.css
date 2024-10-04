@@ -38,10 +38,14 @@ Body {
 
 .active,.manu-bar ul li a:hover
 {
-    background-color: #81abd6;
+    background-color: #8aa384;
     border-radius: 3px;
 }
 
+.manu-bar .fa
+{
+    margin-right: 20px;
+}
 
 
 
