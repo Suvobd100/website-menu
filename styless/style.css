@@ -86,7 +86,15 @@ Body {
 {
     display: none;
 }
-
+.hover-me:hover .sub-manu-2
+{
+    display: block;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 130px;
+    margin-top: -30px;
+}
+/*
 .manu-bar ul li:hover .sub-manu-2
 {
     display: block;
@@ -106,9 +114,12 @@ Body {
     width: 110px;
     padding: 10px;
     border-bottom: 1px dotted white;
+} */
+
+.fa-solid
+{
+    float: right;
 }
-
-
 
 
 
@@ -119,7 +130,7 @@ Body {
 .img-radient {
     height: 20%;
     width: 50%;
-    /* float: left; */
+    /* fa-solidfloat: left; */
     margin: 10px 10px;
     /* border-color: aquamarine; */
 
