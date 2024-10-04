@@ -43,17 +43,35 @@ Body {
     background-color: #8aa384;
     border-radius: 3px;
 }
-/* fonawsome icon separated from name */
+/* fontawsome icon separated from name */
 .manu-bar .fa-regular
 {
     margin-left: 10px;
 } 
-/* fonawsome icon separated from name */
+/* fontawsome icon separated from name */
 .manu-bar .fa-solid
 {
     margin-left: 10px;
 } 
 
+ .sub-manu-1
+{
+    display: none;
+
+} 
+
+.manu-bar ul li:hover .sub-manu-1
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+}
+.manu-bar ul li:hover .sub-manu-1 ul
+{
+    display: block;
+    position: absolute;
+    margin-top: 15px;
+}
 
 
 
@@ -65,8 +83,7 @@ Body {
 
 
 
-
-
+ 
 
 
 .img-radient {
