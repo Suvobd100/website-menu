@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background: url(/image/old-jeans-textures.jpg) no-repeat;
+    background-size: cover;
+    color: whitesmoke
+}
+
+.reg-form {
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% -50%);
+    width: 350px;
+
+}
+
+.reg-form h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.reg-form p {
+    font-size: 20px;
+    margin: 10px 0;
+
+}
