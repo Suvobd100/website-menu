@@ -28,7 +28,8 @@ Body {
 .manu-bar ul li {
     width: 120px;
     margin: 15px;
-    padding: 15px
+    padding: 15px;
+    display: flex;  
 }
 
 .manu-bar ul li a{
@@ -36,16 +37,22 @@ Body {
     color: white;
 }
 
+/* hover affect to manu */
 .active,.manu-bar ul li a:hover
 {
     background-color: #8aa384;
     border-radius: 3px;
 }
-
-.manu-bar .fa
+/* fonawsome icon separated from name */
+.manu-bar .fa-regular
 {
-    margin-right: 20px;
-}
+    margin-left: 10px;
+} 
+/* fonawsome icon separated from name */
+.manu-bar .fa-solid
+{
+    margin-left: 10px;
+} 
 
 
 
